@@ -89,7 +89,7 @@ public class ColorsFragment extends Fragment {
 
         WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.category_colors);
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
         listView.setAdapter(wordAdapter);
 

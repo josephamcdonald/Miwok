@@ -90,7 +90,7 @@ public class FamilyFragment extends Fragment {
         words.add(new Word(getString(R.string.grandfather),getString(R.string.paapa), R.drawable.family_grandfather, R.raw.family_grandfather));
 
         WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.category_family);
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
         listView.setAdapter(wordAdapter);
 
